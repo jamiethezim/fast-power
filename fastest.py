@@ -15,3 +15,5 @@ def fastPower(b, n, e):
         power = (power*power) % n
     return x
         
+#7^2 mod 10
+print(fastPower(7, 10 ,2))
